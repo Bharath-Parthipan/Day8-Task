@@ -122,6 +122,52 @@ Task Complited ["click to View"](http://127.0.0.1:5500/ContactUs.html)
   - MongoDB
   - Cansandra
 
+HTML code :
+```HTML
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Programming Languages and Databases</title>
+    </head>
+    <body>
+        <h2>Programming Languages</h2>
+        <ul>
+            <li>JavaScript
+                <ol>
+                    <li>Angular</li>
+                    <li>React</li>
+                    <li>Vue.js</li>
+                </ol>
+            </li>
+            <li>Python
+                <ol>
+                    <li>Django Framework</li>
+                    <li>Flask Framework</li>
+                </ol>
+            </li>
+            <li>Java
+                <ol>
+                    <li>Spring</li>
+                    <li>Maven</li>
+                    <li>Hibernate</li>
+                </ol>
+            </li>
+        </ul>
+    
+        <h2>Databases</h2>
+        <ul>
+            <li>MySQL</li>
+            <li>MongoDB</li>
+            <li>Cassandra</li>
+        </ul>
+    </body>
+    </html>
+```
+
+This HTML structure creates lists for both programming languages and databases, with sub-lists for specific frameworks/languages under each main category.
+
 ---
 
 5. Create an element that helps you to open the https://google.com in separate new tab.
