@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Us</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .form-group {
+            margin-bottom: 10px;
+        }
+        label {
+            display: block;
+            margin-bottom: 5px;
+            color: #36a1d4;
+        }
+        input[type="text"],
+        input[type="email"],
+        textarea {
+            width: 50%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-sizing: border-box;
+        }
+        .submit-btn{
+            display: flex;
+        }
+        .btn{
+            width: 50%;
+            display: flex;
+            justify-content: end;
+            align-items: end;
+        }
+        input[type="submit"] {
+            background-color: #d22d16;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        input[type="submit"]:hover {
+            background-color: #E67235;
+        }
+    </style>
+  </head>
+  <body style="margin: 0; padding: 0; height: 100%; width: 100%">
+    <section style="background: #36a1d4; height: 100vh; width: 100vw">
+      <div style="height: 100%; width: 100%; display: flex; justify-content: center; align-items: center;">
+
+        <div style="width: 50%; height: auto; text-align: start; color: white;">
+            <span style="font-size: 70px; font-weight: bolder;">Full Stack Development</span>
+            <h1>Day8, 3rd_Task :</h1>
+            <h3>Design a contact us form with all fields as required.</h3>
+        </div>
+
+        <div style="height: 500px; width: 500px; background-color: #d22d16; border-radius: 10px; box-shadow: 10px 10px 10px #006382;">
+            <div style="height: 100%; width: 100%; position: relative;">
+                <div style="height: 100%; width: 100%; display: flex; justify-content: center;">
+                  <div style="height: 100%; width: 150px; background-color: #fce786"></div>
+                </div>
+                <div style="position: absolute; left: 40px; top: 40px; height: 400px; width: 400px; background-color: white; border-radius: 10px; padding: 10px;">
+                    <div style="height: 380px; width: 380px; border: 10px solid #d22d16; border-radius: 7px;">
+                        <h2 style="color: #d22d16; text-align: center;">Contact Us</h2>
+                        <div style="margin: 0px 20px;">
+                            <form action="">
+                                <div class="form-group">
+                                    <input type="text" name="name" placeholder="Name" required>
+                                </div>
+                                <div class="form-group">
+                                    <input type="email" name="email" placeholder="Mail-Id" required>
+                                </div>
+                                <div class="form-group">
+                                    <input type="text" name="subject" placeholder="Subject" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="message">Message:</label>
+                                    <div class="submit-btn">
+                                        <textarea  name="message" rows="5" required></textarea>
+                                        <div class="btn">
+                                            <input type="submit" value="Submit">
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+      </div>
+    </section>
+  </body>
+</html>
